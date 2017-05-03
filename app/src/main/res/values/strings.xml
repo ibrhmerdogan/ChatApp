@@ -23,6 +23,12 @@
     <string name="alert_wait">Please wait...</string>
     <string name="err_fields_empty">Please fill all the fields.</string>
     <string name="err_singup">Error occurred while signup:</string>
+    <string name="elma">elma</string>
+    <string name="uzum">üzüm</string>
+    <string name="portakal">portakal</string>
+    <string name="visne">vişne</string>
+    <string name="seftali">şeftali</string>
+    <string name="armut">armut</string>
     <string name="err_login">Error occurred while login:</string>
     <string name="err_users">Error occurred while finding users:</string>
 <string name="alert_loading">Loading...</string>
@@ -30,4 +36,6 @@
     <string name="delivered_text">Delivered</string>
     <string name="sending_text">Sending...</string>
     <string name="failed_text">Failed</string>
+
+    <string name="volume">&#xf028;</string>
 </resources>

@@ -20,8 +20,8 @@
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/logo_login"
-            android:layout_marginBottom="@dimen/pad_20dp" />
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:src="@drawable/login" />
 
         <EditText
             android:id="@+id/user"

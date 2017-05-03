@@ -15,7 +15,7 @@ import android.view.inputmethod.InputMethodManager;
 import java.util.Iterator;
 
 /**
- * The Class Utils is a common class that hold many kind of different useful
+ * The Class Utils is MyFirebaseInstanceIDService common class that hold many kind of different useful
  * utility methods.
  */
 public class Utils

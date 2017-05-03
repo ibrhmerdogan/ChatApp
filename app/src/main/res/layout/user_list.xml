@@ -4,14 +4,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical" >
-     <ListView
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:divider="@color/main_color_green"
-            android:dividerHeight="1dp"
-            tools:listitem="@layout/chat_item" >
-        </ListView>
+    android:orientation="vertical">
+
+    <Button
+        android:text="book"
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="game"
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
+    <Button
+        android:text="questions"
+        android:id="@+id/btn2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
+    <Button
+        android:text="locked"
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
+    <Button
+        android:text="game2"
+        android:id="@+id/btn4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>

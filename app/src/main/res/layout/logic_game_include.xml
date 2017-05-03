@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/game_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+
+         android:layout_weight="0.9">
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/yenioyun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/pad_30dp"
+            android:background="@color/Bisque"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/pad_30dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:visibility="invisible" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9">
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

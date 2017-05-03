@@ -4,6 +4,13 @@
     <color name="white_smoke">#F7F7F7</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="red">#cf0626</color>
+    <color name="blue">#2c7bb5</color>
+    <color name="green">#00ff7f</color>
+    <color name="yellow">#fef65b</color>
+    <color name="purple">#512544</color>
+    <color name="grey">#c3c3c3</color>
+
     <color name="transparent">#00000000</color>
     
     <color name="main_color_green">#00b863</color>
