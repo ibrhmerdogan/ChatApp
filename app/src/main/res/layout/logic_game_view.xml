@@ -10,16 +10,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_margin="@dimen/pad_10dp"
+        android:layout_weight="1.2">
         <Button
             android:id="@+id/btnvlm"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:text="@string/volume"
+            android:textSize="40dp"
+            android:gravity="center"
             android:layout_weight="1"/>
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/grey"
             android:layout_weight="1"/>
     </LinearLayout>
 
@@ -27,41 +33,46 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="@dimen/pad_15dp"
+        android:layout_margin="40dp"
         android:weightSum="4"
-        android:layout_weight="1">
+        android:layout_weight="0.4">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:weightSum="3"
             android:layout_weight="1">
-            <com.github.siyamed.shapeimageview.BubbleImageView
+            <com.github.siyamed.shapeimageview.RoundedImageView
                android:id="@+id/image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:src="@drawable/greyp"
                 android:layout_weight="1"
                 app:siRadius="6dp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
-                />
-            <com.github.siyamed.shapeimageview.BubbleImageView
+                app:siBorderColor="@color/Brown"/>
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 app:siRadius="6dp"
+                android:src="@drawable/greyp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
+                app:siBorderColor="@color/Brown"
                 />
-            <com.github.siyamed.shapeimageview.BubbleImageView
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 app:siRadius="6dp"
+                android:src="@drawable/greyp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
+                app:siBorderColor="@color/Brown"
                 />
         </LinearLayout>
         <LinearLayout
@@ -70,33 +81,40 @@
             android:orientation="horizontal"
             android:weightSum="3"
             android:layout_weight="1">
-            <com.github.siyamed.shapeimageview.BubbleImageView
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:siRadius="6dp"
+                android:src="@drawable/greyp"
+                android:layout_margin="5dp"
+                app:siBorderColor="@color/Brown"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
-                />
-            <com.github.siyamed.shapeimageview.BubbleImageView
+                app:siRadius="6dp" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:src="@drawable/greyp"
+                android:layout_margin="5dp"
                 app:siRadius="6dp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
+                app:siBorderColor="@color/Brown"
                 />
-            <com.github.siyamed.shapeimageview.BubbleImageView
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:siRadius="6dp"
+                android:src="@drawable/greyp"
+                app:siBorderColor="@color/Brown"
+                android:layout_margin="5dp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
-                />
+                app:siRadius="6dp" />
         </LinearLayout>
         <LinearLayout
         android:layout_width="match_parent"
@@ -104,32 +122,38 @@
         android:orientation="horizontal"
             android:weightSum="3"
         android:layout_weight="1">
-            <com.github.siyamed.shapeimageview.BubbleImageView
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:siRadius="6dp"
+                android:src="@drawable/greyp"
+                android:layout_margin="5dp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
+                app:siBorderColor="@color/Brown"
                 />
-            <com.github.siyamed.shapeimageview.BubbleImageView
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/image7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/greyp"
                 app:siRadius="6dp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
+                app:siBorderColor="@color/Brown"
                 />
-            <com.github.siyamed.shapeimageview.BubbleImageView
+            <com.github.siyamed.shapeimageview.RoundedImageView
                 android:id="@+id/roundedImageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:src="@drawable/greyp"
+                android:layout_margin="5dp"
                 app:siRadius="6dp"
                 app:siBorderWidth="6dp"
-                app:siBorderColor="@color/green"
+                app:siBorderColor="@color/Brown"
                 />
         </LinearLayout> <LinearLayout
         android:layout_width="match_parent"
@@ -137,37 +161,43 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         android:weightSum="3">
-        <com.github.siyamed.shapeimageview.BubbleImageView
+        <com.github.siyamed.shapeimageview.RoundedImageView
             android:id="@+id/roundedImageView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:src="@drawable/greyp"
+            android:layout_margin="5dp"
             app:siRadius="6dp"
             app:siBorderWidth="6dp"
-            app:siBorderColor="@color/green"
+            app:siBorderColor="@color/Brown"
             />
-        <com.github.siyamed.shapeimageview.BubbleImageView
+        <com.github.siyamed.shapeimageview.RoundedImageView
             android:id="@+id/roundedImageView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:src="@drawable/greyp"
             app:siRadius="6dp"
             app:siBorderWidth="6dp"
-            app:siBorderColor="@color/green"
+            app:siBorderColor="@color/Brown"
             />
-        <com.github.siyamed.shapeimageview.BubbleImageView
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
             android:id="@+id/roundedImageView4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:siRadius="6dp"
+            android:layout_margin="5dp"
+            app:siBorderColor="@color/Brown"
+            android:src="@drawable/greyp"
             app:siBorderWidth="6dp"
-            app:siBorderColor="@color/green"
-            />
+            app:siRadius="6dp" />
     </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"></LinearLayout>
+        android:layout_weight="1.4"></LinearLayout>
 </LinearLayout>
